@@ -18,28 +18,39 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a full-stack developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). I have experience in building scalable web applications, working on both the front-end and back-end to create seamless user experiences. My skill set includes designing and implementing databases, developing server-side logic, and creating dynamic, responsive user interfaces.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
+
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "React.js",
+  "JavaScipt vanilla",
+  "Tailwindcss",
+  "Bootstrap",
+  "Html",
+  "CSS (with responsive design)",
+];
+const backendList = [
+  "Express.js",
+  "MonggoseDB",
+  "Node.js",
+  "RESTful API",
+  "JWT for authentication",
 ];
 
+const Frontend = ["Front-end-skill"];
+const Backend = ["Back-end-skill"];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
+
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I really get a kick out of fixing things in novel and innovative ways. Utilizing The MERN Stack To Further My Craft I have created and will continue to create opportunities with the MERN stack, solving problems through workarounds.";
 
 const About = () => {
   return (
@@ -57,6 +68,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        <h2>{Frontend}</h2>
         <ul
           style={{
             textAlign: "left",
@@ -70,6 +82,23 @@ const About = () => {
             <li key={skill}>{skill}</li>
           ))}
         </ul>
+        <hr />
+        <div>
+          <h2>{Backend}</h2>
+          <ul
+            style={{
+              textAlign: "left",
+              columns: 2,
+              fontSize: "1.25rem",
+              margin: "2rem 3rem",
+              gap: "3rem",
+            }}
+          >
+            {backendList.map((e) => (
+              <li key={e}>{e}</li>
+            ))}
+          </ul>
+        </div>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>

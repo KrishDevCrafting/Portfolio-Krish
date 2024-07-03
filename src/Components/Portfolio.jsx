@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/ian-schneider-unsplash.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Interior-Design-webapp in React",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Interior-Design-webapp is a React-based application tailored for interior design enthusiasts and professionals. It offers intuitive tools for visualizing spaces, experimenting with layouts, and selecting decor elements.",
+    url: "https://interior-design-web-app-rose.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "HTML , Css & Javascript vanilla Portfolio",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "HTML, CSS & Vanilla JavaScript Portfolio showcases my skills in front-end web development. It features , elegant CSS styling, and interactive elements powered by pure JavaScript.t.",
+    url: "https://krishdevcrafting.github.io/portfolio/#mid",
   },
   {
-    title: "My Resume Site",
+    title: "Clone the Figma Template",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This project utilizes React.js for its front-end development, leveraging its component-based architecture and virtual DOM for efficient rendering and seamless user interactions.",
+    url: "https://responsive-app-landing-page-neon.vercel.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Responsive-website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Responsive Website: A versatile design that adapts fluidly across devices, ensuring a seamless user experience on desktops, tablets, and mobile phones.",
+    url: "https://krishdevcrafting.github.io/Static-Website-Responsive/",
   },
 ];
 

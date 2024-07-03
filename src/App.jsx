@@ -29,9 +29,9 @@ const siteProps = {
   email: "krishgeek777@gmail.com",
   gitHub: "microsoft",
   linkedIn: "satyanadella",
-  medium: "",
+  medium: "medium.com",
   twitter: "microsoft",
-  youTube: "Code",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
