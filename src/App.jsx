@@ -25,10 +25,9 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Krish",
-  title: "Web Developer & Backend-Developer",
+  title: "Front-end & Backend-Developer",
   email: "krishgeek777@gmail.com",
   gitHub: "microsoft",
-  
   linkedIn: "satyanadella",
   medium: "",
   twitter: "microsoft",
