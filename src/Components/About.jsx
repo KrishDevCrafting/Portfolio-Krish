@@ -1,8 +1,4 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
+
 
 import React from "react";
 
