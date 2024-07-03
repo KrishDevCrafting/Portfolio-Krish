@@ -38,8 +38,10 @@ const Home = ({ name, title }) => {
           color: "#222831",
         }}
       >
-        <h1>{name}</h1>
-        <h2 style={{ color: "#fff" }}>{title}</h2>
+        <h1 style={{ color: "#1A2130" }}>{name}</h1>
+        <h2 style={{ color: "#fff", fontSize: "2rem", left: "10px", position: "absolute" }}>
+          {title}
+        </h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
